@@ -1,0 +1,123 @@
+
+.overlay
+    position: absolute
+    right: 0
+    top: 0
+    height: 100%
+    width: 100%
+    background-color: rgba(0, 0, 0, 0.8)
+    z-index: 1
+
+.cartPopap
+    position: absolute
+    display: flex
+    flex-direction: column
+    width: 420px
+    height: 90%
+    right: 0
+    background-color: #fff
+    padding: 30px
+.cartTitleWrap
+    display: flex
+    align-items: center
+    justify-content: space-between
+    img
+        cursor: pointer
+.cartTitle
+    margin-top: 30px
+    margin-bottom: 20px
+    font-style: normal
+    font-weight: 700
+    font-size: 24px
+    line-height: 29px
+    color: #000000
+
+.cartItemWrap
+    flex: 1
+    overflow: auto
+    margin-bottom: 30px
+.cartItem
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 30px
+    background: #FFFFFF
+    border: 1px solid #F3F3F3
+    border-radius: 20px
+    margin-bottom: 20px
+
+    p
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        margin-bottom: 10px
+        max-width: 200px
+        color: #000000
+    span
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        line-height: 17px
+        color: #000000
+
+    img
+        width: 70px
+        height: 70px
+    .cartDelete
+        width: 32px
+        height: 32px
+        cursor: pointer
+        opacity: 0.5
+        cursor: pointer
+    &:hover
+        opacity: 1
+
+.totalWrap
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 20px
+    .total
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 19px
+        color: #000000
+    .price
+        font-style: normal
+        font-weight: 600
+        font-size: 16px
+        line-height: 19px
+        color: #000000
+    .dat
+        margin: 0 7px
+        margin-top: 7px
+        flex: 1
+        height: 1px
+        border-bottom: 1px dashed #DFDFDF
+
+.cartOrderBtn
+    width: 325px
+    height: 55px
+    background: #9DD558
+    border-radius: 18px
+    display: flex
+    align-items: center
+    cursor: pointer
+    margin: 0 auto
+    &:hover
+        background: #7ecf1a
+    .cartBtnWrap
+        display: flex
+        align-items: center
+        padding: 0 30px
+
+    div
+        flex: 1
+        font-style: normal
+        font-weight: 600
+        font-size: 16px
+        line-height: 19px
+        text-align: center
+        color: #FFFFFF
